@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MouseEvent from './MouseEvent';
+import Items from './ItemList';
+import Bmi from './BMI';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <MouseEvent /> */}
+    {/* <Items /> */}
+    <Bmi />
   </React.StrictMode>
 );
 
